@@ -11,6 +11,9 @@ int main() {
       ++count;
     }
   }
+  if (count > 0) {
+    ++count;
+  }
   printf("%d\n", count);
   return 0;
 }
